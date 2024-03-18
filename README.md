@@ -135,3 +135,163 @@
     <script src="blog1.js"></script>
 </body>
 </html>
+<style>
+    *,
+*::before,
+*::after {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.menu-icon {
+    display: none;
+    width: 24px;
+    height: 24px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem;
+    position: relative;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    nav ul {
+      display: none;
+    }
+  }
+
+/* Link and Logo Hover Effects */
+.link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.1rem;
+    background: #14392f;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+  }
+  
+  .link::before {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .link:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .logo {
+    transition: 0.35s ease;
+  }
+  .logo:hover {
+    opacity: 0.5;
+  }
+  
+.logo {
+    width: 24px;
+    height: 24px;
+  }
+
+body {
+    font-family: oregon;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-image: url(travel2.jpg);
+    backdrop-filter: blur(10px);;
+}
+
+header {
+    background-color: #09605a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.white{
+    color: #000000;
+}
+
+.dark{
+    color: #ffffff;
+}
+.img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.post{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #09605a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #14392f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #206761;
+}
+</style>
