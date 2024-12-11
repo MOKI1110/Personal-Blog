@@ -6,7 +6,9 @@
   box-sizing: border-box;
   border-radius: 15px;
 }
-
+*{
+  color: #f2f7fc;
+}
 .menu-icon {
     display: none;
     width: 24px;
@@ -16,7 +18,8 @@
   .link {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 40px;
+    font-family: Pirata One, sans-serif;
     padding: 0.5rem;
     position: relative;
   }
@@ -36,8 +39,8 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 0.1rem;
-    background: #14392f;
+    height: 0.1px;
+    background: #c3c3c3;
     border-radius: 5px;
     transform: scaleX(0);
     transition: all 0.6s ease;
@@ -63,35 +66,69 @@
     width: 24px;
     height: 24px;
   }
-
+  .font{
+    font-family: Pirata One, sans-serif;
+    font-size: 30px;
+  }
 body {
     font-family: oregon;
     font-size: larger;
     margin: 0;
     padding: 0;
-    background-image: url(travel2.jpg);
-    backdrop-filter: blur(10px);;
+    background-color: #111215;
+
+
+}
+
+#viewer-count{
+  color:#f2f7fc ;
+}
+
+p{
+  font-family: "Ubuntu Sans Mono", monospace;
+}
+.heading_button:link,
+.heading_button:visited{
+  color: #f2f7fc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.heading_button:hover,
+.heading_button:active{
+  border-color: green;
+  color: #f2f7fc;
+
 }
 
 header {
-    background-color: #09605a;
-    color: #fff;
+    color: #f2f7fc;
     padding: 20px;
     text-align: center;
 }
 
 .white{
-    color: #000000;
+    color: #f2f7fc;
 }
 
 .dark{
-    color: #ffffff;
+    color: #f2f7fc;
 }
 .img{
     height: 250px;
     width: 200px;
     border-radius: 50%;
+    margin-bottom: 30px;
 
+}
+
+
+.font{
+  font-family: Pirata One, sans-serif;
+  font-size: 50px;
+  margin-top: 150px;
 }
 
 .post{
@@ -112,20 +149,49 @@ nav ul li {
     margin-right: 20px;
 }
 
-
-
 a {
-    color: #fff;
-    text-decoration: none;
+    color: #f2f7fc;
+  
 }
 
 section {
     padding: 20px;
 }
+.heading{
+  text-shadow: 2px 2px 5px #09605a,2px 2px 5px #7dfff6,2px 2px 5px #00413d;
+  color: f2f7fc;
+  font-family: Pirata One, sans-serif;
+  font-size: 100px;
+}
+
+.edu-container{
+  font-family: Pirata One, sans-serif;
+  font-size: 50px;
+  margin-top: 150px;
+}
+.grid-container {
+  border: none;
+  display: grid;
+  grid-gap: 20px; /* Increased gap for better spacing */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.grid-item {
+  background-color: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%; /* Ensure image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
 
 footer {
-    background-color: #09605a;
-    color: #fff;
+    background-color: #a5a5a5;
+    color: #f2f7fc;
     text-align: center;
     padding: 10px 0;
 }
@@ -133,26 +199,63 @@ footer {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
-input,
-textarea,
-button {
+input {
     margin-bottom: 10px;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+    
 }
 
 button {
-    background-color: #14392f;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 175px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 20%;
+  outline: none;
+  
+}
+textarea{
+  margin-bottom: 10px;
+  padding: 8px 0px 0px 8px;
+  min-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+input:hover,textarea:hover{
+  border-color: #a5a5a5;
+  border-bottom-width: 5px;
+}
+
+button {
+  background-color: #696969;
+  color: #f2f7fc;
+  border: none;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #206761;
+    background-color: #a5a5a5;
+}
+
+.error-message {
+  color: red;
+}
+.success-message {
+  color: green;
+}
+
+#viewer-count{
+  box-sizing: border-box;
+  padding: 5px;
+  color:black;
 }
