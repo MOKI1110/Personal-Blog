@@ -4,6 +4,11 @@ Welcome to my **Personal Travel Blog**! This is a beginner-friendly project wher
 
 ---
 
+## Live Preview
+Check out the live version of this blog here: [Personal Travel Blog Live](https://codepen.io/Mokith-Pranesh-S/full/JjqjvZb)
+
+---
+
 ## Features
 - **Travel Stories**: Read about my exciting journeys.
 - **Photo Gallery**: A collection of beautiful travel photographs.
@@ -33,11 +38,6 @@ This blog is built using:
    ```bash
    open blog1.html
    ```
-
----
-
-## Live Preview
-Check out the live version of this blog here: [Personal Travel Blog Live](<add_your_hosted_link_here>)
 
 ---
 
