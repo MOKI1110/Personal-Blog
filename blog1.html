@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beyond Borders </title>
+    <title>Beyond Borders</title>
     <link rel="stylesheet" href="blog1.css">
+    <script src="blog1.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Pirata+One&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <header>
-        <h1>Beyond Borders</h1>
+        <h1 class="heading">MOKITH PRANESH</h1>
         <nav>
             <ul>
                 <li><a href="#home" class="link">Home</a></li>
                 <li><a href="#about"class="link">About</a></li>
                 <li><a href="#blog"class="link">Blog</a></li>
                 <li><a href="#contact"class="link">Contact</a></li>
+                <li><a href="https://www.canva.com/design/DAF-KuXpREk/JZG-xetsgzXVT9LRSlpwwQ/view"class="link">Resume</a></li>
             </ul>
             <button class="menu-icon">
               <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -24,20 +32,23 @@
               </svg>
             </button>
           </nav>
+      <div class="header-info">
+        <p>VIEWS<span id="viewer-count" style="color: aliceblue;"></span></p>
+      </div>
     </header>
 
-    
+
 
     <section id="home">
-        <h2 class="dark">Welcome to Beyond Borders Blog!</h2><br>
-        <p class="white">At Beyond Borders Blog, we are passionate explorers, constantly seeking out new horizons and embracing the thrill of the unknown. Whether it's trekking through remote mountain trails, lounging on pristine beaches, or immersing ourselves in vibrant cultures, we believe that every journey holds the potential for transformative experiences and unforgettable memories.</p>
+        <h2 class="dark">Welcome to my Pesonal Blog!</h2><br>
+        <p class="white">I am a passionate explorer, constantly seeking out new horizons and embracing the thrill of the unknown. Whether it's trekking through remote mountain trails, lounging on pristine beaches, or immersing myself in vibrant cultures, I believe that every journey holds the potential for transformative experiences and unforgettable memories.</p>
     </section>
 
     <section id="about">
         <h2 class="dark">About Me</h2><br>
-        
-        <img src="PHOTO.jpg" alt="My Image" class="img" >
-        <p class="white">Greetings, fellow adventurers! I'm Mokith Pranesh, the founder and chief explorer behind Beyond Borders. Allow me to introduce myself and share a glimpse into my wanderlust-fueled world. <br><br>
+
+        <img src="https://res.cloudinary.com/dir67zth6/image/upload/v1710772399/beyond_borders/PHOTO_qjeqiy.jpg" alt="My Image" class="img" >
+        <p class="white">Greetings, fellow adventurers! I'm Mokith Pranesh. Allow me to introduce myself and share a glimpse into my wanderlust-fueled world. <br><br>
 
             I'm a passionate traveler, storyteller, and seeker of new experiences. From a young age, I've been captivated by the allure of far-off lands and the thrill of discovery. Over the years, my insatiable curiosity has led me to traverse continents, immerse myself in diverse cultures, and create memories that will last a lifetime. <br><br>
 
@@ -49,7 +60,7 @@
 
             So, are you ready to join me on this exhilarating journey? Whether you're a seasoned nomad or a first-time explorer, there's always something new to discover and experience. Together, let's embark on a voyage of discovery, forge unforgettable memories, and create a world enriched by diversity, connection, and shared adventure.
             <br><br>
-            
+
             Thank you for joining me on this extraordinary quest. Let's make every journey an adventure to remember!</p>
     </section>
 
@@ -59,7 +70,7 @@
         <h3>Abu Dhabi</h3>
         <div>
             <figure>
-                <img src="abu.jpg" alt="Abu Dhabi" loading="lazy" class="post">
+                <img src="https://res.cloudinary.com/dir67zth6/image/upload/v1710772530/beyond_borders/abu_fzp1af.jpg" alt="Abu Dhabi" loading="lazy" class="post">
             </figure>
         </div>
         <section id="content">
@@ -88,7 +99,7 @@
                 Seoul
             </h3>
             <figure>
-                <img src="seoul.jpg" alt="Seoul" loading="lazy" class="post">
+                <img src="https://res.cloudinary.com/dir67zth6/image/upload/v1710772488/beyond_borders/seoul_ppbzld.jpg" alt="Seoul" loading="lazy" class="post">
             </figure>
         </div>
         <section id="content">
@@ -114,24 +125,53 @@
         </section>
     </section>
 
-    <section id="contact">
-        <h2 class="dark">Contact Me</h2>
-
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <a href="#" style="font-size: larger; color:#09605a" ><strong>Back to Top</strong></a>
+    <section id="education">
+        <div class="edu-container">
+            <h2>Education</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <p class="text" style="font-size: 20px;">The Indian Public School (TIPS) in Erode is a prominent educational institution known for its holistic approach to education and commitment to academic excellence.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="cbse-tips.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="scts.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <p class="text" style="font-size: 20px;">Sri Chaitanya Techno School, situated in Neelambur, is an extension of the esteemed Sri Chaitanya group of institutions. Renowned for its dedication to academic excellence and the comprehensive growth of students, this institution stands as a beacon of educational distinction in its region.</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <h2 style="color: white;">Contact Me</h2>
+<form id="contact">
+  <div>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+    <span id="nameError" class="error-message"></span>
+  </div>
+  <div>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="e-mail" placeholder="Your Email" required><br>
+    <span id="emailError" class="error-message"></span>
+  </div>
+  <div>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br>
+    <span id="messageError" class="error-message"></span>
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+  <div id="confirmation" class="success-message" style="display: none;">Message sent!</div>
+</form>
 
 
     <footer>
         <p>&copy; 2024 Beyond Borders Blog</p>
     </footer>
-    
 
-    <script src="blog1.js"></script>
 </body>
 </html>
